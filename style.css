@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background: url(header.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.buffer {
+    height: 5rem;
+}
+
+hr {
+    border-color: #FD7272;
+    border-width: 2px;
+    max-width: 65px;
+}
+
+.btn-1 {
+    font-weight: 700;
+    border-radius: 300px;
+    color: #FD7272;
+    border: 1px solid #FD7272;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #CA5B5B;
+    color: #fff;
+    border: 1px solid #CA5B5B;
+    border-width: 4px;
+}
+
+.btn-1:focus,
+.btn-1:active {
+    outline: none;
+    box-shadow: none;
+}
